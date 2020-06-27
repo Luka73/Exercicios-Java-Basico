@@ -8,6 +8,6 @@ public class Questao8 {
 
         double velocidadeMediaEmMilhas = distanciaEmMilhas / tempoEmHoras;
 
-        System.out.println("A velocidade média por hora em milhas é: " + velocidadeMediaEmMilhas);
+        System.out.println("A velocidade média por hora em milhas é: " + velocidadeMediaEmMilhas); //11.25
     }
 }

@@ -10,6 +10,6 @@ public class Questao6 {
         double somaDosPesos = 2+2+3+3;
 
         double mediaPonderada = ((p1*2) + (p2*2) + (p3*3) + (p4*3)) / somaDosPesos;
-        System.out.println("A média ponderada do Gabriel é: " + mediaPonderada);
+        System.out.println("A média ponderada do Gabriel é: " + mediaPonderada); //7.390...
     }
 }
