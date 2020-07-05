@@ -14,7 +14,7 @@ public class Questao1 {
         System.out.println("Escolha uma operação: ( + - * / ) ");
         String operacao = sc.next();
 
-        switch(operacao)
+        switch(operacao) //Choice!
         {
             case "+":
                 System.out.println("Soma: " + (n1 + n2));
