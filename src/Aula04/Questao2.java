@@ -31,6 +31,5 @@ public class Questao2 {
         for(int y = -29; y < 30; y++) {
             System.out.println(y);
         }
-
     }
 }

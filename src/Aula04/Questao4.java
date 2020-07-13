@@ -15,6 +15,5 @@ public class Questao4 {
         for(int j = 15; j >= 1; j--) {
             System.out.println(j);
         }
-
     }
 }

@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Desafio3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Digite um número entre 3 e 20: ");
-        int n = sc.nextInt();
+        System.out.println("Digite um número entre 3 e 20: "); //5
+        int n = sc.nextInt(); //5
+        // 1, 1, 2, 3, 5
 
         if(n >= 3 && n <= 20) {
             int t1 = 1;
@@ -16,6 +17,7 @@ public class Desafio3 {
             //Usando While
             System.out.print(t1 + ", ");
             System.out.print(t2 + ", ");
+            //1, 1, 2, 3, 5
 
             int i = 3;
             while(i <= n) {
@@ -45,6 +47,5 @@ public class Desafio3 {
         } else {
             System.out.println("Número inválido.");
         }
-
     }
 }
