@@ -9,7 +9,7 @@ public class Desafio {
         double delta = (Math.pow(b, 2)) -4 * a * c;
         System.out.println("Delta: " + delta); //64.0
 
-        double div = 2 * a;
+        double div = 2 * a; // 4
         double x1 = (-b + Math.sqrt(delta)) / div;
         double x2 = (-b - Math.sqrt(delta)) / div;
 

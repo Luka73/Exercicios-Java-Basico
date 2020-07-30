@@ -7,7 +7,7 @@ public class Desafio1 {
     }
 
     public static int contaVogais(String texto) {
-        int count = 0;
+        int count = 0; //acumulador
         for(int i = 0; i < texto.length(); i++) {
             if(eVogal(texto.charAt(i))) {
                 count++;
